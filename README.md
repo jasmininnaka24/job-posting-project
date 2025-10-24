@@ -2,6 +2,7 @@
 
 ## 📘 Overview
 The **JobPostingProj** is a data engineering project designed to automate the ingestion, transformation, and preparation of job posting data for analytics.  
+
 It follows a **Medallion Architecture** — **Bronze**, **Silver**, and **Gold** — combined with a **Star Schema** data model to ensure data quality, scalability, and maintainability across all stages of the pipeline.
 
 This architecture supports both **incremental data loading** and **dimensional modeling** — optimizing data for analysis and reporting in the **Gold** layer.
